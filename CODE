@@ -1,0 +1,24 @@
+#CALCULAR ÁREA CUADRADO
+print ("De que figura geometrica quiere calcular el área?")
+print ("[1] CUADRADO")
+print ("[2] Triangulo")
+print ("[3] Rectángulo")
+figura = int(input("Introduzca el número asignado de la figura de la que desea hacer el Área."))
+
+
+
+if figura == 1 :
+	print ("Usted a seleccionado la Opción [1] CUADRADO] ")
+	print ("[CURIOSIDAD] El Área del Cuadrado es Lado x Lado.")
+	lado = int(input("Introduzca la distancia en cm de un lado del cuadrado."))
+	resultado = lado*lado
+	print ("El resultado de hallar el área de un cuadrado cuyo lado es", lado, "da como resultado", resultado )
+	print ("Gracias por usar esta calculadora de Area desarollada por Dimineko")
+
+if figura == 2 : 
+	print ("Usted a seleccionado la Opción [2] TRIÁNGULO")
+	print ("[CURIOSIDAD] El Área del Cuadrado es Lado x Lado.")
+	lado = int(input("Introduzca la distancia en cm de un lado del cuadrado."))
+	resultado = lado*lado
+	print ("El resultado de hallar el área de un Triángulo de lado", lado,"da como resultado : ",resultado)
+	print ("Gracias por usar esta calculadora de Áreas desarollada por DiMiNeKo en Pyhon 3")
